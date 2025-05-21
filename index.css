@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilização para o cabeçalho do site  */
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilização para a Nav  */
+nav {
+    background-color: #444;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Estilização para a class container do elemento section */
+.container {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Estilização do aside  */
+aside {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+/* Estilização do Main da Section */
+main {
+    width: 75%;
+    padding: 1rem;
+}
+/* Estilização do Artcile  */
+article {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+/* Estilização do Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+}
+
+/* Estilização para o elemento Span  */
+
+span{
+    font-weight:bold;
+}
